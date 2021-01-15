@@ -1,8 +1,10 @@
 <template>
-  <div class="">
+  <div class="d-flex flex-column min-vh-100">
     <GavinNavigation />
     <div class="container index">
       <nuxt />
+    </div>
+    <div class="flex-fill">
     </div>
     <GavinFooter />
   </div>

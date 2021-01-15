@@ -3,7 +3,8 @@ title: Lorum Ipsum
 date: 2021-01-15
 description: Lorem ipsom. Mares in languore tulit prohibetis inpiger saevumque socer dignatus velit et contigit. Potentia cornuagenetrix humum silvae septemflua et felle
 image: https://images.unsplash.com/photo-1580982324076-d95230549339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
-tags: [Nuxt, Cypress]
+tags: [Test, Example]
+categories: [Example]
 ---
 # Extenuat inde formae
 

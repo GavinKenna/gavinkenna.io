@@ -3,16 +3,19 @@
     <div class="main">
       <blogpost class="md:p-8 prose prose-md lg:prose-lg mx-auto">
         <img
-          :alt="page.title"
-          :src="page.image"
+          :alt="blog.title"
+          :src="blog.image"
           class="card-img-top img-fluid rounded"
         >
-        <h1 class="title" align="center">
-          {{ page.title }}
+        <h1 align="center" class="title">
+          {{ blog.title }}
         </h1>
 
-        <!-- {{ stats.text }} -->
-        <nuxt-content :document="page" class="" />
+        <p align="center">
+          Originally Published {{ formatDate(blog.date) }}
+        </p>
+
+        <nuxt-content :document="blog" class="" />
       </blogpost>
     </div>
   </div>
@@ -23,7 +26,7 @@ export default {
   layout: 'blog',
   async asyncData ({ $content, params }) {
     const slug = params.slug || 'index'
-    const page = await $content('blogposts', slug).fetch()
+    const blog = await $content('blogposts', slug).fetch()
     const blogposts = await $content('blogposts')
       .where({ published: { $ne: false } })
       .sortBy('date', 'desc')
@@ -34,20 +37,26 @@ export default {
       .surround(slug)
       .fetch()
     return {
-      page,
+      blog,
       prev,
       next,
       blogposts
     }
   },
+  methods: {
+    formatDate (date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    }
+  },
   head () {
     return {
-      title: this.page.title,
+      title: this.blog.title,
       meta: [
         {
           hid: 'description',
-          name: 'desctiption',
-          content: this.page.desctiption
+          name: 'description',
+          content: this.blog.description
         }
       ],
       link: [
@@ -73,10 +82,12 @@ export default {
     margin-right: auto;
     max-width: 65ch;
   }
+
   aside ul {
     top: 6rem;
     position: sticky;
   }
+
   aside {
     min-width: 300px;
     padding-left: 40px;

@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="card card-1">
       <NuxtLink :to="`/blog/${item.slug}`">
         <img
           :alt="item.title"
