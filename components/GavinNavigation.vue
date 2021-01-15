@@ -34,7 +34,7 @@
         </ul>
         <li style="alignment: right">
           <fa style="color: white" :icon="['fab','github']" />
-          <a class="navbar-brand mb-0 h1" :href="`https://github.com/GavinKenna/GavinKenna.io]/commit/${commitSha}`">
+          <a class="navbar-brand mb-0 h1" :href="`https://github.com/GavinKenna/GavinKenna.io/commit/${commitSha}`">
             Current Code Version # {{ commitSha }}
           </a>
         </li>
