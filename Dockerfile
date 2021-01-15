@@ -1,5 +1,8 @@
 FROM node:lts-alpine
 
+RUN apk update
+RUN apk add git
+
 # install simple http server for serving static content
 RUN npm install -g http-server
 
