@@ -1,4 +1,8 @@
 export default {
+  server: {
+    port: 8080, // default: 3000
+    host: '0.0.0.0' // default: localhost
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTICS_ID
