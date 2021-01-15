@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "current-git-commit": "GIT_COMMIT=`git rev-parse --short HEAD`",
+    "dev": "npm run current-git-commit nuxt",
+    "build": "npm run current-git-commit nuxt build",
+    "start": "npm run current-git-commit nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js"
@@ -29,6 +30,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.10.0",
     "eslint-plugin-nuxt": "^1.0.0",
+    "git-describe": "^4.0.4",
     "nuxt-fontawesome": "^0.4.0",
     "reading-time": "^1.2.1"
   }
