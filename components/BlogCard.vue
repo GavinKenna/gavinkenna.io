@@ -1,10 +1,10 @@
 <template>
-    <div class="card">
+    <div class="">
       <NuxtLink :to="`/blog/${item.slug}`">
         <img
           :alt="item.title"
           :src="item.image"
-          class="card-img-top"
+          class="card-img-top embed-responsive embed-responsive-16by9"
         >
       </NuxtLink>
       <div class="card-body" >

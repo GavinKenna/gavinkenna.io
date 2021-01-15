@@ -4,12 +4,11 @@
       A Blog Written by Someone You Don't Care About
     </h5>
     <br>
-
-    <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-      <div class="card-deck">
-        <div v-for="blogpost of blogposts" :key="blogpost.slug">
-          <BlogCard :item="blogpost" />
-        </div>
+    <div class="card-deck mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-9 lg:max-w-none" style="margin-bottom:10px;">
+      <div class="row">
+            <div class="card" v-for="blogpost of blogposts" :key="blogpost.slug">
+              <BlogCard :item="blogpost" />
+            </div>
       </div>
     </div>
   </div>
