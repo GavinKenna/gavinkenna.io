@@ -11,8 +11,8 @@
           <h1>About Me</h1>
           <p class="text-center" style="padding-top: 5%">
             Hey there, I'm Gavin and welcome to my own little piece of the interwebs. I'm currently a
-            Director of Engineering for medtech company call PharmaPod, but I've previously held positions
-            as a Backend engineer, Architect, DevOps engineer and retail assistant.
+            Director of Engineering for medtech company called PharmaPod, but I've previously held positions
+            as a Backend engineer, Software Architect, DevOps engineer and for a brief period of time a retail assistant.
           </p>
           <p>
             I'm using this site as a means to play around with Vue.js and hone my frontend skills, as I've
@@ -20,7 +20,11 @@
           </p>
           <p>
             This project is built using Vue.js, Nuxt.js and Bootstrap. It's wrapped within a Docker container and
-            deployed on my trusty Raspberry Pi. Please feel free to fork this project and view it's insides.
+            deployed on my trusty Raspberry Pi. There's also some Google Analytics running in the background for good
+            measure.
+          </p>
+          <p>
+            Please feel free to fork this project and view it's insides.
           </p>
         </div>
       </div>
