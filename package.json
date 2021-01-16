@@ -5,8 +5,8 @@
   "scripts": {
     "current-git-commit": "GIT_COMMIT=`git rev-parse --short HEAD`",
     "dev": "npm run current-git-commit nuxt",
-    "build": "NODE_OPTIONS=--max_old_space_size=8192 npm run current-git-commit nuxt build",
-    "start": "NODE_OPTIONS=--max_old_space_size=8192 npm run current-git-commit nuxt start",
+    "build": "NODE_OPTIONS=--max_old_space_size=500 npm run current-git-commit nuxt build",
+    "start": "NODE_OPTIONS=--max_old_space_size=500 npm run current-git-commit nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js"
