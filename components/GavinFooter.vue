@@ -8,13 +8,15 @@
             <h7>Check out my LinkedIn</h7>
           </a>
         </div>
+        <!--        <div class="clearfix"/>-->
+      </div>
+      <div class="flex-column">
         <div class="flex-row">
           <a class="social" href="https://github.com/GavinKenna">
             <fa :icon="['fab','github']" l />
-            <h7>Check out my Github</h7>
+            <h7>Check out my GitHub</h7>
           </a>
         </div>
-        <!--        <div class="clearfix"/>-->
       </div>
       <div class="flex-column">
         <div class="flex-row">

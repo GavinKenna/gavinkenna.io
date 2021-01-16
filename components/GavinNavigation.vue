@@ -1,6 +1,8 @@
 <template>
   <div class="">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fix-top">
+      <a class="navbar-brand mb-0 h1" href="#">GavinKenna.io</a>
+
       <button
         aria-controls="options"
         aria-expanded="false"
@@ -12,7 +14,6 @@
       >
         <span class="navbar-toggler-icon" />
       </button>
-      <a class="navbar-brand mb-0 h1" href="#">GavinKenna.io</a>
 
       <div id="options" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
