@@ -6,7 +6,8 @@ module.exports = {
       instances: '2', //
       script: './node_modules/nuxt/bin/nuxt.js',
       args: 'start',
-      watch: true
+      watch: true,
+      restart_delay: 5000
     }
   ]
 }
