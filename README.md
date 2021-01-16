@@ -2,6 +2,26 @@
 
 A pet project to test the capabilities of my Raspberry Pi.
 
+## Adding a new Blogpost
+Nuxt.js is a great framework for serverless content hosting. It automatically searches for Markdown files within
+the content directory.
+
+To add a new Blogpost simply create a new Markdown file
+in `/content/blogposts` and ensure it has the following metadata filled out:
+```$xslt
+---
+title: Title of Blogpost
+date: XXX-XX-XXX
+description: Some description
+image: img_location
+tags: [Test, Example]
+categories: [Example]
+---
+```
+
+Nuxt.js itself doesn't care about the attributes, but for some Vue Components I have written it does matter
+ (i.e. BlogCard which uses the blog.title attribute for instance)
+
 ## Tech Used
 For this project I've used the following tech:
 * Vue.js
