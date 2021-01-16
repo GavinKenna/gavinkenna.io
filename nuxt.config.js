@@ -1,4 +1,7 @@
 export default {
+  env: {
+    COMMIT_REF: process.env.GIT_COMMIT
+  },
   server: {
     port: 8080, // default: 3000
     host: '0.0.0.0' // default: localhost

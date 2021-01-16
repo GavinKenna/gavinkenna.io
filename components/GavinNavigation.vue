@@ -35,8 +35,8 @@
         </ul>
         <li style="alignment: right">
           <fa style="color: white" :icon="['fab','github']" />
-          <a class="navbar-brand mb-0 h1" :href="`https://github.com/GavinKenna/GavinKenna.io/commit/${commitSha}`">
-            Current Code Version # {{ commitSha }}
+          <a class="navbar-brand mb-0 h1" :href="`https://github.com/GavinKenna/GavinKenna.io/commit/${commit}`">
+            Current Code Version # {{ commit }}
           </a>
         </li>
       </div>
@@ -48,7 +48,7 @@
 export default {
   data () {
     return {
-      commitSha: process.env.GIT_COMMIT
+      commit: process.env.COMMIT_REF
     }
   }
 }
