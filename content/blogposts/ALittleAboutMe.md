@@ -3,7 +3,7 @@ title: A Little About Myself
 date: 2021-01-17
 description: Thank you for visiting my website, I really appreciate it. As a thank you the least I could do is to let you know a little about myself.
 image: /images/hello.jpg
-tags: [About, Gavin, Kenna]
+tags: [About, Gavin, Kenna, Introductions]
 categories: [About, Introductions]
 ---
 
