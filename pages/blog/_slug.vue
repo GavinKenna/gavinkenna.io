@@ -107,4 +107,8 @@ export default {
     padding-left: 40px;
     max-width: 400px;
   }
+
+  .card-subtitle {
+    padding-bottom: 25px;
+  }
 </style>
