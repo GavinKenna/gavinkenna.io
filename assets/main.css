@@ -69,6 +69,8 @@ section p {
 img[src$="centerme"] {
   display:block;
   margin: 0 auto;
+  max-height: 600px;
+  max-width: 600px;
 }
 
 pre,

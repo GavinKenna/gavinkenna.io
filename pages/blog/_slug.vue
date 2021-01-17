@@ -10,8 +10,9 @@
         <h1 align="center" class="title">
           {{ blog.title }}
         </h1>
+        <b-card-sub-title align="center">{{ blog.description }}</b-card-sub-title>
 
-        <p align="center">
+        <p style="font-style: italic" align="right">
           Originally Published {{ formatDate(blog.date) }}
         </p>
 
@@ -90,6 +91,10 @@ export default {
     margin-left: auto;
     margin-right: auto;
     max-width: 65ch;
+  }
+
+  p {
+    padding-top: 15px;
   }
 
   aside ul {

@@ -4,7 +4,7 @@
       <div class="container">
         <h1>Hey, I'm Gavin</h1>
         <h5>Director of Engineering for PharmaPod</h5>
-        <p style="padding-top: 5%">
+        <p style="padding-top: 15px">
           Welcome to my little place on the internet. I plan on using this space to write Blog posts on subjects
           that I find interesting, as well as a place to track my goals throughout the year.
         </p>
