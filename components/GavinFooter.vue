@@ -44,7 +44,7 @@
     max-width: 960px;
     padding: 15px;
     /*padding-top: 100%;*/
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     alignment: bottom;
   }
 

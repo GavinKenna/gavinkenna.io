@@ -16,5 +16,6 @@
   }
   .index {
     font-family: 'DejaVu Sans Mono';
+    padding-top: 70px;
   }
 </style>

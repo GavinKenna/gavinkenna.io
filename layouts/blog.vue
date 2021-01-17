@@ -17,5 +17,6 @@
   }
   .blog {
     font-family: 'Ubuntu';
+    padding-top: 70px;
   }
 </style>

@@ -72,6 +72,9 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
+  .main {
+    padding-bottom: 100px;
+  }
   .title {
     font-size: 2.1428571em;
     margin-top: 0;

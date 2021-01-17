@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fix-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand mb-0 h1" href="#">GavinKenna.io</a>
 
       <button
