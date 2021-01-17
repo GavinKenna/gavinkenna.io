@@ -66,6 +66,11 @@ section p {
   margin-inline-end: 0px;
 }
 
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
+
 pre,
 code {
   overflow: auto;
