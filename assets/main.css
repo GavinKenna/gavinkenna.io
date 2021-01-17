@@ -13,3 +13,62 @@
   font-display: swap;
   src: url('fonts/Ubuntu-R.ttf') format('truetype');
 }
+
+:root {
+  --color: #243746;
+  --color-primary: #d8002d;
+  --color-secondary: #0e2233;
+  --bg: #f3f5f4;
+  --bg-secondary: #fff;
+  --border-color: #cd3333;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color);
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+  @apply font-sans;
+}
+
+section p {
+  @apply mb-2;
+}
+
+.layout-enter-active,
+.layout-leave-active,
+.page-enter-active,
+.page-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+.layout-enter,
+.layout-leave-active,
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.nuxt-content h2,
+.nuxt-content h3 {
+  border-bottom: 3px;
+  border-bottom-style: dotted;
+  display: inline-block;
+  border-color: rgba(14, 34, 51, 0.4);
+  text-transform: uppercase;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+pre,
+code {
+  overflow: auto;
+  width: auto;
+  max-width: 95vw;
+}

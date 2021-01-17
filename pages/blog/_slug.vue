@@ -18,6 +18,12 @@
         <nuxt-content :document="blog" class="" />
       </blogpost>
     </div>
+    <div class="card-subtitle" align="center">
+      <a class="social" :href="`https://github.com/GavinKenna/GavinKenna.io/content/blogposts/${this.$route.params.slug}.md`">
+        <fa :icon="['fab','github']" l />
+        <h7 >Edit this post on GitHub</h7>
+      </a>
+    </div>
   </div>
 </template>
 
