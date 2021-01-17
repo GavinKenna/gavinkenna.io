@@ -13,8 +13,8 @@
           this site as a way to fully understand Vue.js.
         </p>
         <p>
-          Please feel free to Fork this site at
-          <a href="https://github.com/GavinKenna/gavinkenna.io">https://github.com/GavinKenna/gavinkenna.io</a>
+          Please feel free to Fork this site
+          <a href="https://github.com/GavinKenna/gavinkenna.io">here</a>
         </p>
       </div>
     </section>

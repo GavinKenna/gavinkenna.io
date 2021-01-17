@@ -12,10 +12,10 @@
 
 <style scope>
   .navbar {
-    font-family: "DejaVu Sans Mono";
+    /*font-family: "DejaVu Sans Mono";*/
   }
   .index {
-    font-family: 'DejaVu Sans Mono';
+    /*font-family: 'DejaVu Sans Mono';*/
     padding-top: 70px;
   }
 </style>

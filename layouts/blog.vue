@@ -13,10 +13,10 @@
 
 <style scope>
   .navbar {
-    font-family: "DejaVu Sans Mono";
+    /*font-family: "DejaVu Sans Mono";*/
   }
   .blog {
-    font-family: 'Ubuntu';
+    /*font-family: 'Ubuntu';*/
     padding-top: 70px;
   }
 </style>
