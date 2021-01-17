@@ -66,11 +66,19 @@ section p {
   margin-inline-end: 0px;
 }
 
+.nuxt-content img{
+  max-width:100%;
+  height:auto;
+  border-radius:.25rem!important;
+  display: block;
+}
+
 img[src$="centerme"] {
   display:block;
   margin: 0 auto;
-  max-height: 600px;
-  max-width: 600px;
+  /*max-height: 600px;*/
+  /*max-width: 600px;*/
+  class: "card-img-top img-fluid rounded";
 }
 
 pre,
