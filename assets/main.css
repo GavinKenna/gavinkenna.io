@@ -67,10 +67,13 @@ section p {
 }
 
 .nuxt-content img{
-  max-width:100%;
-  height:auto;
+  max-width: 50%;
+  max-height: 50%;
+  overflow: hidden;
+  /*width: auto;*/
+  /*height: auto;*/
   border-radius:.25rem!important;
-  display: block;
+  display: flex;
 }
 
 img[src$="centerme"] {
@@ -78,7 +81,6 @@ img[src$="centerme"] {
   margin: 0 auto;
   /*max-height: 600px;*/
   /*max-width: 600px;*/
-  class: "card-img-top img-fluid rounded";
 }
 
 pre,
