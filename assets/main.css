@@ -53,6 +53,12 @@ section p {
   opacity: 0;
 }
 
+.card-columns .card {
+  margin-right: 2.0rem;
+  margin-bottom: 2.0rem;
+
+}
+
 .nuxt-content h2,
 .nuxt-content h3 {
   border-bottom: 3px;
@@ -81,6 +87,11 @@ img[src$="centerme"] {
   margin: 0 auto;
   /*max-height: 600px;*/
   /*max-width: 600px;*/
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
 }
 
 pre,

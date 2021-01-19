@@ -1,0 +1,42 @@
+[
+  {
+    "title" : "Masters of Doom",
+    "author" : "David Kushner",
+    "image" : "/images/books/masters.jpg",
+    "status" : "read",
+    "opinion" : "A very insightful read about the early days of the world-famous id software.",
+    "progress" : 100
+  },
+  {
+    "title" : "Effective Java",
+    "author" : "Joshua Bloch",
+    "image" : "/images/books/effectivejava.jpg",
+    "status" : "read",
+    "opinion" : "A must have for any Java developer who wants to take their Java ability to the next level. Very thorough and educational.",
+    "progress" : 100
+  },
+  {
+    "title" : "The Count of Monte Cristo",
+    "author" : "Alexandre Dumas",
+    "image" : "/images/books/count.jpg",
+    "status" : "reading",
+    "opinion" : "A tale as old as time : boy meets girl, boy falls in love with girl, girls cousin forges an illegal letter implying boy is treasonous, boy spends 14 years in prison, boy goes for revenge.",
+    "progress" : 50
+  },
+  {
+    "title" : "The Making of Prince of Persia",
+    "author" : "Jordan Mechner",
+    "image" : "/images/books/prince.jpg",
+    "status" : "reading",
+    "opinion" : "I remember reading Jordans' blog a few years back and he had all of his diary entries available to read. With this book edition he went through the effort of annotating his diary entries and it's an interesting look into his thought process. ",
+    "progress" : 15
+  },
+  {
+    "title" : "Game Engine Black Book: Wolfenstein 3D",
+    "author" : "Fabien Sanglard",
+    "image" : "/images/books/wolf3d.jpg",
+    "status" : "wishlist",
+    "opinion" : "How was Wolfenstein 3D made and what were the secrets of its speed?",
+    "progress" : 0
+  }
+]

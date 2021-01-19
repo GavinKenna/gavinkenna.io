@@ -32,10 +32,15 @@
               About
             </NuxtLink>
           </li>
+          <li class="nav-item">
+            <NuxtLink class="nav-link" to="/readinglist">
+              Reading List
+            </NuxtLink>
+          </li>
         </ul>
         <li style="alignment: right">
-          <fa style="color: white" :icon="['fab','github']" />
-          <a class="navbar-brand mb-0 h1" :href="`https://github.com/GavinKenna/GavinKenna.io/commit/${commit}`">
+          <fa :icon="['fab','github']" style="color: white" />
+          <a :href="`https://github.com/GavinKenna/GavinKenna.io/commit/${commit}`" class="navbar-brand mb-0 h1">
             Current Code Version # {{ commit }}
           </a>
         </li>
