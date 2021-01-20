@@ -8,9 +8,9 @@ categories: [Engineering, Programming, Nuxt]
 ---
 ## Preface
 
-I'm a fan of books and typically I'm reading a couple of books in parallel. Tracking all of the books I have read (or would like to read) can be tricky. I did sign up for [GoodReads]() many moons ago for tracking my books but I found it too bloated for what I needed - just tracking books.
+I'm a fan of books and typically I'm reading a couple of books in parallel. Tracking all of the books I have read (or would like to read) can be tricky. I did sign up for [GoodReads](https://www.goodreads.com/) many moons ago for tracking my books but I found it too bloated for what I needed - just tracking books.
 
-After building out my [BlogCard]() component in Vue.js I figured I could also build out a basic reading list using the same functionality. I also realised this would be a perfect opportunity to document my thought process for designing a new feature, implementing it and tracking any issues I come across during my course of programming.
+After building out my [BlogCard](https://github.com/GavinKenna/gavinkenna.io/tree/master/components/BlogCard.vue) component in Vue.js I figured I could also build out a basic reading list using the same functionality. I also realised this would be a perfect opportunity to document my thought process for designing a new feature, implementing it and tracking any issues I come across during my course of programming.
 
 I will talk about how I plan to implement this feature from a hobby perspective , but I will also discuss how I **would** approach and implement this feature from an enterprise perspective if I were tasked with this at work.
 
