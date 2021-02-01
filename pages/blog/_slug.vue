@@ -12,7 +12,7 @@
         </h1>
         <b-card-sub-title align="center">{{ blog.description }}</b-card-sub-title>
 
-        <p style="font-style: italic" align="right">
+        <p style="font-style: italic; text-underline: #0e2233; text-decoration-line: underline " align="right">
           Originally Published {{ formatDate(blog.date) }}
         </p>
 
