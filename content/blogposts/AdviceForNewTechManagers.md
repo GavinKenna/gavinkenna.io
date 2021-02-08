@@ -25,7 +25,7 @@ Developers are creative workers. Looking at a problem could generate multiple so
 
 Anecdotally, I've experienced that while developers enjoy structure - from a strict code style, to a high percentage code coverage - overall I don't believe developers enjoy getting railroaded into following a strict corporate mindset, i.e. being expected to buy into the Company Culture or forced to partake in Team Building Exercises.  
 
-Now, knowing how all of this, how did I handle leading a team of developers?
+Now, knowing all of this, how did I handle leading a team of developers?
 
 ## Organise One-On-Ones Often
 
@@ -128,7 +128,9 @@ Like me, you may be tasked with leading people with more experience (and they ma
 
 While this can feel weird at first, giving instructions to those with a skillset far above your own, you need to understand that this is your role to lead.
 
-As long as you are respectful towards all those who report to you, don't make demands and you don't view your position as one that is "above" others, you should be fine.
+You should lean on these experienced developers for their insights and take on their advice and suggestions on board. Their knowledge and wisdom can be a major asset.
+
+As long as you are respectful towards all those who report to you, and don't make demands and you don't view your position as one that is "above" others, you should be fine.
 
 ## Block Out Your Calendar
 
