@@ -9,7 +9,7 @@ categories: [Engineering, Management]
 
 Going from a programmer, to a team lead, to a Director of Engineering can be quite a jump. How do you lead or manage a team of developers who are, by and large, individualistic?
 
-I've been programming since I was about 10 and leading teams for a bit of time now. I don't assume to know all of the answers, but what I do have are insights on how I found leading a development team.
+I've been programming since I was about 10 and leading teams for a bit of time now. I don't assume to know all the answers, but what I do have are insights on how I found leading a development team.
 
 ## Preface
 
@@ -29,7 +29,7 @@ Now, knowing all of this, how did I handle leading a team of developers?
 
 ## Organise One-On-Ones Often
 
-Organise a One-on-One meeting often, ideally at the same time and day every 2-4 weeks. Try not to perform ad-hoc One-on-One meetings as your team members may not be prepared. Also it's important that the meetings don't happen less often than once every 2-4 weeks, as the goal is to catch potential issues soon to mitigate problems down the road.
+Organise a One-on-One meeting often, ideally at the same time and day every 2-4 weeks. Try not to perform ad-hoc One-on-One meetings as your team members may not be prepared. Also it's important the meetings don't happen less often than once every 2-4 weeks, as the goal is to catch potential issues soon to mitigate problems down the road.
 
 I would typically organise no more than one One-on-One in the morning and another in the afternoon, as to not burn myself out  (which would consequentially affect those meetings and the overall quality of them).
 
@@ -52,7 +52,7 @@ During the meeting itself it's very important to have it away from the team, for
 >       * Mid Term Goal   : Become SME on particular project.
 >       * Long Term Goal  : Run team.
 >   2) Questions should change each session to give variety and explore different avenues. We should also avoid vague questions should as "How are things?" and instead ask probing questions should as "If you could change one thing in our team right now, what would it be?"
->   3) Actions are trackable objectives, typically assigned to myself (the manager). An Action could be to give access to a particular system, or purchase training for the employee.
+>   3) Actions are trackable objectives, typically assigned to myself. An Action could be to give access to a particular system, or purchase training for the employee.
 > * Keep track of every One-on-One meeting on a shared document with that employee. This document will contain all One-on-Ones had, questions asked (and their answers). It will also contain Actions put aside for future meetings. Personally I use OneNote.
 > * Divide your employees into One-on-One groups. Each group will be asked the same questions individually which may be helpful in finding the overall tone of the team.
 > * Show what Questions you will be asking before the One-on-One meeting, as to give your employee time to consider the answer.
@@ -68,13 +68,13 @@ One of the biggest problems I found was delegating work, namely development work
 
 Even though delegating work was the most obvious form of managing employees,  it was the most difficult task I encountered as a former developer.
 
-As a developer I wanted to take all of the complex, exciting, initiative tasks that came down the line. Rebuild the backend? Yeah I want to be spearheading that. Taking our deployment method from manual to Automated CI/CD? Yup assign that task to me. Containerising our core application using Docker? I'm on it.
+As a developer I wanted to take all the complex, exciting, initiative tasks that came down the line. Rebuild the backend? Yeah I want to be spearheading that. Taking our deployment method from manual to Automated CI/CD? Yup assign that task to me. Containerising our core application using Docker? I'm on it.
 
 But as a Team Lead (and then as a Director of Engineering) I found it somewhat difficult to relinquish the development work to downstream teams and employees. After all, I was a Senior Software Developer in charge of writing a lot of the code before being Team Lead - why would that change?
 
 The answer is that it needs to change. As a Team Lead, or Team Manager, or even Director of Engineer - it doesn't mean you continue your old role and take on new responsibilities, it means taking control on the new role entirely and finding the best person for your previous responsibilities. And that means relinquishing all aspects of your previous role (no matter how hard you find it).
 
-The reason for this is simple - if you continue to design, develop, bug-fix and document, when will you find time to perform your main role? You were intrusted to lead your team effectively and efficiently - you can't do that if you're spread too thin.
+The reason for this is simple - if you continue to design, develop, bug-fix and document, when will you find time to perform your main role? You were entrusted to lead your team effectively and efficiently - you can't do that if you're spread too thin.
 
 Now that's not to say you won't be programming at all - probably just not as much as you're used to!
 
@@ -86,13 +86,13 @@ This is as true for software development as anything, and this is something I tr
 
 Possibly not. And that's OK. As I mentioned above you can't be expected to be able to perform every facet of the department, but that doesn't mean you shouldn't understand the high level workings of the System or Product your team is working on.
 
-If you can't find time to step through the code itself then at least gain an insight into the system from an engineer or architect on the team. Learn about the entrypoints, it's tech stack, it's build and deployment infrastructure, how best to get an engineer ramped up on it, etc.
+If you can't find time to step through the code itself then at least gain an insight into the system from an engineer or architect on the team. Learn about the entrypoints, the tech stack, it's build and deployment infrastructure, how best to get an engineer ramped up on it, etc.
 
 Outside of work, try to keep up with current tech trends and see where the industry is moving in terms of best practices.
 
 ## Be (More) Organised
 
-Personally, moving from Developer to Team Lead and Director was signified by less work occurring in my IDE and more work happening in my Email client and meeting rooms.
+Personally, moving from Developer to Team Lead / Director was signified by less work occurring in my IDE and more work happening in my Email client and meeting rooms.
 
 This presented an immediate change in how I tracked my work. As a Developer I would track my work in the form of tickets (tasks, bugs, etc). I would take a ticket, action it, test it and close it. A simple flow of work.
 
@@ -108,11 +108,11 @@ Using this we're able to roughly estimate how long a feature/product will take a
 
 ## Be Assertive - But Not Unreasonable
 
-A simple piece of advice, but I think an important one. As a team lead you are the defacto representative of your team. Your department looks to you to protect them from unrealistic timelines, additional ad-hoc work and general pressure from other teams.
+A simple piece of advice, but I think an important one. As a team lead you are the de facto representative of your team. Your department looks to you to protect them from unrealistic timelines, additional ad-hoc work and general pressure from other teams.
 
 **Learn to say no to other department heads**.
 
-While overall the company is a team, you have been tasked with overseeing your department and they look to you to shield them from as much as possible.
+While overall the company is a team, you have been tasked with overseeing your department, and they look to you to shield them from as much as possible.
 
 If a ticket comes in that is being pushed as a P1 and the requirements aren't clear cut, **say no**.
 
@@ -120,7 +120,7 @@ If there's implied pressure to work overtime (without explicitly requesting over
 
 If your team has given accurate timeline's based on experience, and you're asked if it can be pushed ahead without additional resources, **say no**.
 
-Now, obviously that doesn't mean to stonewall every other department just for the sake of it - overall each department is striving for the same goal but you just have to be mindful that your priority is to your team.
+Now, obviously that doesn't mean to stonewall every other department just for the sake of it - overall each department is striving for the same goal, but you just have to be mindful that your priority is to your team.
 
 ## Overcome The Strange Feeling of Leading People With More Experience
 
@@ -130,7 +130,7 @@ While this can feel weird at first, giving instructions to those with a skillset
 
 Also, just because you are leading the team that does not mean you know more than your team. You should lean on these experienced developers (and junior developers) for their insights and take on their advice and suggestions on board. Their knowledge and wisdom can be a major asset.
 
-As long as you are respectful towards all those who report to you, and don't make demands and you don't view your position as one that is "above" others, you should be fine.
+As long as you are respectful towards all those who report to you, and don't make demands, and you don't view your position as one that is "above" others, you should be fine.
 
 ## Block Out Your Calendar
 
